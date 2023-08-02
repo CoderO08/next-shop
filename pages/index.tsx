@@ -12,7 +12,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-     <h2>Otabek</h2>
+     <h3>Home</h3>
+     <p>http://localhost:3000/web</p>
+     <p>http://localhost:3000/dashboard</p>
     </div>
   )
 }

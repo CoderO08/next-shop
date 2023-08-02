@@ -1,9 +1,13 @@
-import React from 'react'
+import styles from './styles.module.scss'
 
-const dashboard = () => {
+const Dashboard = () => {
   return (
-    <div>dashboard</div>
+    <div className={styles.dashboard}>
+      <h1>Dashboad
+        
+      </h1>
+    </div>
   )
 }
 
-export default dashboard
+export default Dashboard
