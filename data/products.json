@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "img": "https//nimadir.jpg",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum set amet dolor sit lorem amet",
+      "price": 200,
+      "id": "1"
+    },
+    {
+      "img": "https//nimadir.jpg",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum set amet dolor sit lorem amet",
+      "price": 400,
+      "id": "2"
+    },
+    {
+      "img": "https//nimadir.jpg",
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum set amet dolor sit lorem amet",
+      "price": 600,
+      "id": "3"
+    }
+  ]
+}
