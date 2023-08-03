@@ -1,9 +1,11 @@
 import React from "react";
 import styles from "./web.module.scss";
 import Head from "next/head";
+import Link from "next/link";
 export const getStaticProps = async () => {
   const res = await fetch("http://localhost:3000/api");
   const repo = await res.json();
+
   return { props: { repo } };
 };
 const Web = ({ repo }: any) => {
@@ -18,16 +20,19 @@ const Web = ({ repo }: any) => {
       <div className={styles.container}>
         <div className={styles.web}>
           {repo?.products.map((p: any) => (
-            <div className={styles.card} key={p.id}>
-              <div className={styles.card_image}>
-                <img src={p.img} alt="logo" />
-              </div>
+            <Link key={p.id} href={`/web/${p.id}`}>
+              <div className={styles.card}>
+                <div className={styles.card_image}>
+                  <img src={p.img} alt="logo" />
+                </div>
 
-              <div className={styles.card_description}>
-                <p className={styles.text_title}>{p.title}</p>
-                <p className={styles.text_body}>{p.description}</p>
+                <div className={styles.card_description}>
+                  <p className={styles.text_title}>{p.title}</p>
+                  <p className={styles.text_body}>{p.description}</p>
+                  <p className={styles.price}>{p.price}$</p>
+                </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
