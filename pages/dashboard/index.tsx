@@ -6,11 +6,11 @@ import styles from "./styles.module.scss";
 //   },
 //   method: "POST",
 //   body: JSON.stringify({
-//     img: "https//nimadir.jpg",
-//     title: "Lorem fsdfsdfsdipsumsssswqeqweqweqw",
+//     img: "https://i.etsystatic.com/6037284/r/il/edcaa3/4084290008/il_fullxfull.4084290008_400v.jpg",
+//     title: "Blue T-shirt",
 //     description:
-//       "Lorem ipsum set amet dolor sit ttytytytlorem ametdsfdddddddddd",
-//     price: 800,
+//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. A repellendus culpa sequi. Modi, cupiditate sunt.",
+//     price: 400,
 //   }),
 // });
 
